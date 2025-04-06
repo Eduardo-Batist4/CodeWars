@@ -1,0 +1,13 @@
+1 - Descending Order
+    Your task is to make a function that can take any non-negative integer as an argument and return it with its digits in descending order. Essentially, rearrange the digits to create the highest possible number.
+-----------------------------------------------------------------------------------------------------
+2 - Get the middle Character
+    If the string's length is odd, return the middle character.
+    If the string's length is even, return the middle 2 characters.
+
+    example:
+        "test" --> "es"
+        "testing" --> "t"
+        "middle" --> "dd"
+        "A" --> "A"
+-----------------------------------------------------------------------------------------------------

@@ -1,0 +1,49 @@
+funções mais usadas em Python:
+
+    print() – Exibe uma saída
+
+    len() – Retorna o tamanho de uma sequência
+
+    type() – Retorna o tipo de um objeto
+
+    input() – Lê entrada do usuário
+
+    int(), float(), str() – Converte tipos de dados
+
+    range() – Gera uma sequência de números
+
+    list(), tuple(), dict(), set() – Criação de estruturas de dados
+
+    sum(), min(), max() – Operações matemáticas básicas
+
+    map(), filter(), reduce() – Manipulação de iteráveis
+
+    enumerate() – Retorna índice e valor ao iterar
+
+    zip() – Junta iteráveis em pares
+
+---------------------------------------------------------------------
+
+funções mais usadas em arrays (listas) em Python:
+
+    append() – Adiciona um elemento ao final
+
+    extend() – Adiciona múltiplos elementos
+
+    insert() – Insere um elemento em um índice específico
+
+    remove() – Remove a primeira ocorrência de um elemento
+
+    pop() – Remove e retorna um elemento pelo índice
+
+    index() – Retorna o índice de um elemento
+
+    count() – Conta ocorrências de um valor
+
+    sort() – Ordena a lista
+
+    reverse() – Inverte a ordem da lista
+
+    copy() – Faz uma cópia da lista
+
+    clear() – Remove todos os elementos
