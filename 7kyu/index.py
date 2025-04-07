@@ -23,4 +23,18 @@ get_middle('a')
 """
 
 # -------------------------------------------------------------------------- #
+"""
+def is_isogram(string):
+    array = set()
+    for i in string.lower():
+        if i in array:
+            return False
+        array.add(i)
+    return True
 
+is_isogram("Dermatoglyphics")
+is_isogram("aba")
+is_isogram("moOse")
+"""
+
+# -------------------------------------------------------------------------- #
