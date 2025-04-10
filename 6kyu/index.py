@@ -29,6 +29,7 @@ likes(["Max", "John", "Mark"])
 likes(["Alex", "Jacob", "Mark", "Max", "ola"])
 """
 # -------------------------------------------------------------------------------------- #
+"""
 def array_diff(a, b):
     array = []
     for i in a:
@@ -39,3 +40,15 @@ def array_diff(a, b):
 
 array_diff([1,2], [1])
 array_diff([1,2,2,2,2,3], [2])
+"""
+# -------------------------------------------------------------------------------------- #
+def spin_words(sentence):
+    newString = []
+    for i in sentence.split():
+        newString.append(i[::-1]) if len(i) >= 5 else newString.append(i)
+    return " ".join(newString)
+
+
+spin_words("Hey fellow warriors")
+spin_words("This is a test")
+spin_words("This is another test")
