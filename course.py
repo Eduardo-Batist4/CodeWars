@@ -1,5 +1,5 @@
 class Course_Solution:
-    def maximumLengthSubstring(self, s: str) -> int:
+    def maximumLengthSubstring(s: str) -> int:
         l, r = 0, 0
         _max = 1
         counter = {}
@@ -21,5 +21,8 @@ class Course_Solution:
         return _max
 
 
-response =  Course_Solution()
-print(response.maximumLengthSubstring('bcbbbcba'))
+    def LargestSumOfSubarrayWithFixedSize (self, s, t) -> int:
+
+                
+                            
+
